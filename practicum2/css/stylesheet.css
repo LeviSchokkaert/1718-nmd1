@@ -1,4 +1,41 @@
-
-p{
-    font-family: Arial, sans-serif;
+html{
+    font-family: Arial, Helvetica, sans-serif;
 }
+.banner{
+    background-image: url(../images/banner.png);
+    margin:10% 0% 5% 0%;
+    padding: 1%;
+
+}
+h1{
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+    color: antiquewhite;
+}
+/*tekst*/
+h2{
+    font-size: 2em
+}
+p{
+
+}
+.container {
+    display: flex;
+    border: 5px solid tomato;
+    
+  }
+.box1{
+  
+    flex: 1 1 20%;
+    padding: 2%;
+  }
+.box2{
+    flex: 1 10 20%;
+    padding: 2%;
+  }
+.box3{
+    flex: 1 10 20%;
+    padding: 2%;
+  }
+
